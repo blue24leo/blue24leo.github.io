@@ -1,0 +1,70 @@
+body {
+	background-color: #000;
+	background-image: url(https://pixabay.com/get/ed3db90829f31c22d9584518a33219c8b66ae3d11fb0104992f8c37e/the-ball-488717_1920.jpg);
+	color: #fff;
+	font-family: Arial;
+	
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #d2b29b;
+	margin: 0 auto;
+	padding: 5%;
+	background-image: url(https://pixabay.com/static/uploads/photo/2013/07/13/10/51/football-157931_640.png);
+}
+section{
+	width: 10%;
+	length: 50%;
+}
+
+header h1 {
+	text-align: right;
+	margin-right: 10px;
+}
+
+nav {
+	background-color: #ccc;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 5px;
+	font-size: 20px;
+}
+
+li a:link, li a:active, li a:hover, li a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+li a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+main {
+	background-color: #9dc6d8;
+}
+
+section img{
+	width: 15%;
+	padding: 35px;
+}
+
+
+footer {
+	text-align: center;
+	background-color: #B366FF;
+	padding: 10px;
+}
