@@ -1,25 +1,30 @@
 body {
 	background-color: #000;
 	background-image: url(http://cdn29.us1.fansshare.com/pictures/carwallpapers/wallpaper-muscle-car-dodge-challenger-ford-mustang-chevrolet-camaro-on-your-desktop-mustang-335431778.jpg);
+	background-size: 100%;
 	color: #fff;
 	font-family: Arial;
 	
 }
 
+img {
+     opacity: 0.4;
+     filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+ img:hover {
+     opacity: 1.0;
+     filter: alpha(opacity=100); /* For IE8 and earlier */
+} 
+
 .container {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 }
 
-header {
-	background-color: #d2b29b;
-	margin: 0 auto;
-	padding: 5%;
-	background-image: url(https://pixabay.com/get/e133b70829f41c22d2524518a33219c8b66ae3d11fb0154493f3c27c/chevrolet-866710_1280.jpg);
-}
 section{
 	width: 10%;
-	length: 50%;
+	length: 10%;
 }
 
 header h1 {
@@ -27,14 +32,16 @@ header h1 {
 	margin-right: 10px;
 }
 
-nav {
-	background-color: #ccc;
-	padding: 10px;
-}
+
 
 nav ul {
 	list-style-type: none;
 	text-align: center;
+}
+
+nav {
+	background-color: #ccc;
+	padding: 10px;
 }
 
 nav ul li {
@@ -53,18 +60,6 @@ li a:hover {
 	font-weight: bold;
 }
 
-main {
-	background-color: #9dc6d8;
-}
-
-section{
-	width: 60%;
-	padding: 15px;
-	display: inline-block;
-	background-color: #4B0082;
-
-}
-
 aside {
 	width: 35%;
 	padding: 10px;
@@ -72,13 +67,12 @@ aside {
 }
 
 section img{
-	width: 35%;
-	padding: 35px;
+	width: 15%;
+	length: 15%;
 }
 
-
-footer {
-	text-align: center;
-	background-color: #B366FF;
-	padding: 10px;
+section img{
+	width: 10%;
+	length: 10%;
 }
+

@@ -1,6 +1,6 @@
 body {
 	background-color: #000;
-	background-image: url(https://pixabay.com/get/ed3db90829f31c22d9584518a33219c8b66ae3d11fb0104992f8c37e/the-ball-488717_1920.jpg);
+	background-image: url(http://www.wallpapersxl.com/wallpapers/1280x1024/chelsea/450459/chelsea-football-barca-logo-fc-barcelona-450459.jpg);
 	color: #fff;
 	font-family: Arial;
 	
@@ -11,16 +11,21 @@ body {
 	margin: 0 auto;
 }
 
-header {
-	background-color: #d2b29b;
-	margin: 0 auto;
-	padding: 5%;
-	background-image: url(https://pixabay.com/static/uploads/photo/2013/07/13/10/51/football-157931_640.png);
-}
+
 section{
 	width: 10%;
 	length: 50%;
 }
+
+img {
+     opacity: 0.4;
+     filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+ img:hover {
+     opacity: 1.0;
+     filter: alpha(opacity=100); /* For IE8 and earlier */
+} 
 
 header h1 {
 	text-align: right;
@@ -28,7 +33,7 @@ header h1 {
 }
 
 nav {
-	background-color: #ccc;
+	background-color: #fff;
 	padding: 10px;
 }
 
@@ -65,6 +70,6 @@ section img{
 
 footer {
 	text-align: center;
-	background-color: #B366FF;
+	background-color: #000;
 	padding: 10px;
 }
